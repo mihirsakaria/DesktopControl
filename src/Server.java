@@ -63,8 +63,7 @@ public class Server extends JFrame implements ActionListener {
 		{
 			frame.dispose();
 			new server_client();
-		}
-		
+		}	
 	}
 
 }

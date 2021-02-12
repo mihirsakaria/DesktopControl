@@ -76,6 +76,9 @@ public class MainClientGUI extends JFrame implements ActionListener{
 		}
 		if(e.getSource()==button3)
 		{
+			int port;
+			port = Integer.parseInt(Port);
+			new ScreenShare(IP,port);
 		}
 		if(e.getSource()==button4)
 		{

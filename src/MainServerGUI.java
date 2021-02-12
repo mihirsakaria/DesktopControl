@@ -73,6 +73,9 @@ public class MainServerGUI extends JFrame implements ActionListener{
 		}
 		if(e.getSource()==button3)
 		{
+			int port;
+			port = Integer.parseInt(Port);
+			new ScreenShare(port);
 		}
 		if(e.getSource()==button4)
 		{
