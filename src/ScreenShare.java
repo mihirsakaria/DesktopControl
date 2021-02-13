@@ -29,6 +29,7 @@ public class ScreenShare {
 	private static int port;
 	private static String ipadd;
 	public void main(String[] args) {
+		
 	}
 	
 	// move Mouse per five second while in client mode
@@ -37,6 +38,7 @@ public class ScreenShare {
 		//checkit = true;
 		this.port = port;
 		System.out.println("Sab moh maya hai");
+		
 		server(port);
 		//server(port);
 	}
